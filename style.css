@@ -1,4 +1,3 @@
-
 html {
   height: 100%;
   width: 100%;
@@ -6,12 +5,12 @@ html {
 h1{
   font-size: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+/* styles the header 1 with a font size and a font. */
 }
 
 .centerAll{
   text-align: center;
-  
+  /* class to center all text */
 }
 img {
   border: 3px solid #000000;
@@ -52,4 +51,26 @@ body{
   height : 100vh;
   
   
+}
+
+a:link {
+  color: blue;
+  /* styles link to blue */
+}
+
+a:visited {
+  color: lightblue;
+  /* styles visited link to light blue */
+}
+
+
+a:hover {
+  color: mediumpurple;
+  /* styles link when hovered over to medium purple*/
+}
+
+
+a:active {
+  color: darkblue;
+  /* styles link when using to dark blue */
 }
